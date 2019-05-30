@@ -12,7 +12,7 @@ class Transfer
   end  
   
   def valid?
-    sender.valid? == true && receiver.valid? == true ? true : false
+    sender.valid? == true && receiver.valid? == true && sender.balance > @amount ? true : false
   end  
   
   def execute_transaction
