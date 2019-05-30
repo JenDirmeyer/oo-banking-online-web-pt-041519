@@ -39,6 +39,7 @@ class Transfer
       @status = "complete"
     else
      return "This transaction was not completed."
+    end 
   end
     
 end
