@@ -25,7 +25,7 @@ class Transfer
       #binding.pry
       return @status
     else
-      binding.pry
+      #binding.pry
       puts "Transaction rejected. Please check your account balance."
       @status = "rejected"
     end  
